@@ -159,13 +159,5 @@ The app downloads NLTK `stopwords` and `wordnet` at startup, so its hosting envi
 | `Address already in use` on port 8501 | Stop the other running Streamlit process with **Ctrl+C**, or use `python -m streamlit run app.py --server.port 8502`. |
 | Question 4 has no interactive HTML output | Run the Question 4 notebook from top to bottom and check the project folder for `lda_intertopic_map.html`. |
 
-## 7. Submission checklist
-
-- [ ] Questions **1, 2, 3 and 4** open successfully in Jupyter.
-- [ ] The required `research_abstracts.json` and `research_corpus.zip` are present.
-- [ ] The Streamlit app opens and accepts an abstract.
-- [ ] The trained `abstract_classifier.pkl` is saved next to `app.py`.
-- [ ] Question 4 creates `lda_intertopic_map.html` when its notebook is run.
-- [ ] `README.md` and `requirements.txt` are included with the project files.
 
 **Project purpose:** To demonstrate text preprocessing, classification, summarisation and topic modelling of research documents, and to make the trained research abstract classifier available through a simple web interface.
